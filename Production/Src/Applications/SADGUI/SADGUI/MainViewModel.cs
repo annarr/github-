@@ -20,6 +20,7 @@ namespace SADGUI
 {
     class MainViewModel : ViewModelBase
     {
+        //test1
         private BitmapSource m_cameraImage;
         private Capture m_capture;
         private IMissileLauncher m_missileLauncher;
