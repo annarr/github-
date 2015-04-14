@@ -20,13 +20,14 @@ namespace SADGUI
 {
     class MainViewModel : ViewModelBase
     {
-        //test1
+        //test1...
         private BitmapSource m_cameraImage;
         private Capture m_capture;
         private IMissileLauncher m_missileLauncher;
         private int move;
         private string m_missileCount;
-        private TargetViewModel m_selectedTarget;
+
+private TargetViewModel m_selectedTarget;
         private TargetManager m_targetManager;
         private string m_LauncherPosition;
 
